@@ -25,3 +25,4 @@ such as the pci.ids database and MonitorsDb databases.
 %config(noreplace) %{_sysconfdir}/modprobe.d/blacklist.conf
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/*
+
